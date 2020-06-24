@@ -1,0 +1,32 @@
+html, body {
+  background-color: #f3eeee;
+  height: 100%;
+  width: 100%;
+}
+
+.sec-btn {
+  background-color: #e58484;
+  color: #fff;
+  padding: 20px 40px;
+  border: none;
+  margin: 20px 0;
+}
+
+.container {
+  width: 280px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e58484;
+  padding: 50px;
+  height: 130px;
+  margin: 200px auto;
+  border-radius: 4px;
+}
+
+.app {
+  text-align: center;
+}
