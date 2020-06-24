@@ -95,7 +95,7 @@ class App extends Component {
     const { error, src, dimensions, fileName, showUploadedImages } = this.state;
     return (
       <div className="app">
-        <div className='container'>
+        <div className={showUploadedImages ? '' : 'container'}>
           <div>
             <h1>{showUploadedImages ? 'Uploaded files' : 'Upload file'}</h1>
           </div>
@@ -107,7 +107,7 @@ class App extends Component {
           }
           {
             error ?
-              <span>{error}</span> : null
+              <span className='error'>{error}</span> : null
           }
         </div>
         {src ?
