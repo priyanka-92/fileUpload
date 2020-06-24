@@ -141,7 +141,9 @@ class App extends Component {
         }
         {
           src ?
-            <button className='sec-btn' type='button' onClick={this.saveImage}>Upload Images</button> : null
+            <div className='btn_container'>
+              <button className='sec-btn' type='button' onClick={this.saveImage}>Upload Images</button>
+            </div>: null
         }
       </div>
     );
